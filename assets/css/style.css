@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    color: #333;
+}
+/*--- Header ---- */
+header{
+    padding-left:5%;
+}
+header h2{
+    font-family: 'Cinzel', serif;
+    color: #999;
+}
+/* ---- Hero ---- */
+section:nth-of-type(1){
+    background: url(https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80) center/cover no-repeat;
+    padding: 360px 0;
+}
+section:nth-of-type(1) h1{
+    font-family: 'Cinzel', serif;
+    width:300px;
+    margin: 0 auto;
+    font-size: 48px;
+    color:#fff;
+}
+/* ---- Choose your trip ---- */
+section:nth-of-type(2){
+    padding: 50px 5%;
+    text-align: center;
+}
+section:nth-of-type(2) h2{
+    font-family: 'Cinzel', serif;
+    margin-bottom: 90px;
+}
+section:nth-of-type(2) p{
+    font-family: 'Poppins', sans-serif;  
+}
+/* ---- Gallery ---- */
+section:nth-of-type(3){
+    padding: 50px 0;
+}
+section:nth-of-type(3) article{
+    margin-bottom: 50px;
+}
+section:nth-of-type(3) img{
+    width:25%;
+    margin-left: 6.25%;
+}
+/* ---- 2019 Tour dates ---- */
+section:nth-of-type(4){
+    padding:0 5% 50px;
+}
+section:nth-of-type(4) h2{
+    font-family: 'Cinzel', serif;
+    margin-bottom: 90px;
+    text-align: center;
+}
+section:nth-of-type(4) ul{
+    font-family: 'Poppins', sans-serif;  
+}
+section:nth-of-type(4) ul li{
+    padding-bottom: 14px;
+}
+section:nth-of-type(4) ul li:nth-of-type(1)::after,section:nth-of-type(4) ul li:nth-of-type(2)::after,section:nth-of-type(4) ul li:nth-of-type(3)::after{
+    content:' - SOLD OUT';
+    color:red;
+}
+section:nth-of-type(4) ul li:nth-of-type(4)::after{
+    content:' - ONLY 4 AVAILABLE';
+    color:red;
+}
+section:nth-of-type(4) ul li:nth-of-type(5)::after,section:nth-of-type(4) ul li:nth-of-type(6)::after{
+    content:' - AVAILABLE';
+    color:green;
+}
+/* ---- Footer ---- */
+footer{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    border-top:1px solid #ccc;
+}
